@@ -176,10 +176,10 @@ export default function Hero() {
             Heavy Lift,<br />
             <span className="hero__title-accent">Expert Hands.</span>
           </h1>
-          <p className="hero__desc">
+          {/* <p className="hero__desc">
             Shree Shyam Crane Service delivers safe, reliable, and powerful crane rental solutions
             for construction, infrastructure, and industrial projects across Jaipur.
-          </p>
+          </p> */}
           <div className="hero__stats">
             <div className="hero__stat"><strong>500+</strong><span>Projects Done</span></div>
             <div className="hero__stat-divider"></div>
