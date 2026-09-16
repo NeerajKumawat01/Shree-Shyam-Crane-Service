@@ -7,11 +7,14 @@ import Services from './pages/Services'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import './styles/global.css'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <div className="app">
+        <ScrollToTop />
+
         <Navbar />
         <main>
           <Routes>
