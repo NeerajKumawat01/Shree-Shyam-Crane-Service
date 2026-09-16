@@ -425,3 +425,40 @@ height: 40px;
   .hero__actions .btn-primary,
   .hero__actions .btn-outline { width: 100%; justify-content: center; }
 }
+
+/* ===== TOUCH DEVICES / MOBILE DESKTOP MODE ===== */
+@media (hover: none) and (pointer: coarse) {
+
+  .hero__container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero__visual {
+    display: none;
+  }
+
+  .hero__content {
+    text-align: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero__desc {
+    max-width: 100%;
+  }
+
+  .hero__stats {
+    justify-content: center;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+
+  .hero__badge {
+    margin: 0 auto 20px;
+  }
+}
