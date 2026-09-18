@@ -92,7 +92,7 @@ export default function Contact() {
                 <div className="contact-card__icon"><LocationIcon /></div>
                 <div>
                   <h4>Our Office</h4>
-                  <p>Basant Vihar Colony, Chomu<br/>Jaipur, Rajasthan 303702</p>
+                  <p>Daulatshah Baba Dargah, Opposite R.K. Factory Hospital, Chomu, Jaipur, Rajasthan</p>
                 </div>
               </div>
               <div className="contact-card">

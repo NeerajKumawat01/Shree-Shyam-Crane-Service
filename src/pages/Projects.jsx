@@ -48,15 +48,24 @@ const allProjects = [
     year: '2023',
     color: '#c62828',
   },
-  // {
-  //   img: '/projects/g4.jpg',
-  //   title: 'Transformer Installation',
-  //   category: 'Industrial',
-  //   tons: '35T',
-  //   location: 'Jaipur',
-  //   year: '2022',
-  //   color: '#e65100',
-  // },
+  {
+    img: '/projects/g3.jpg',
+    title: 'Transformer Installation',
+    category: 'Industrial',
+    tons: '35T',
+    location: 'Jaipur',
+    year: '2022',
+    color: '#e65100',
+  },
+   {
+    img: '/projects/g4.jpg',
+    title: 'Transformer Installation',
+    category: 'Industrial',
+    tons: '35T',
+    location: 'Jaipur',
+    year: '2022',
+    color: '#e65100',
+  },
 ]
 
 const categories = ['All', 'Infrastructure', 'Industrial', 'Commercial', 'Residential']
